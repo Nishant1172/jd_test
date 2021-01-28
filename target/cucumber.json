@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "do search",
+        "description": "",
+        "id": "search;do-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7413012700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "i am on a homepage",
+            "match": {
+              "location": "searchStep.i_am_on_a_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10171239800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i do search for a product \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 27
+                }
+              ],
+              "location": "searchStep.i_do_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7327693100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i should be see a respective product",
+            "match": {
+              "location": "searchStep.i_should_be_see_a_respective_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]
